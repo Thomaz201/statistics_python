@@ -4,7 +4,8 @@ verify_ssl = true
 name = "pypi"
 
 [packages]
-pandas = "*"
+pandas = "==1.5.3"
+matplotlib = "*"
 
 [dev-packages]
 ipykernel = "*"
